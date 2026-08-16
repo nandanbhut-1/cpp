@@ -9,7 +9,7 @@ class time {
         void sectohour(){
             hour = sec/3600;
             min = (sec%3600)/60;
-            sec = (sec%3600*60)%60;
+            sec = (sec%3600)%60;
             
             cout << hour << ":" << min << ":" << sec ;
 
