@@ -9,7 +9,7 @@ private:
     int rollNumber;
 
 public:
-    // Parameterized constructor
+    
     Student(string name, int rollNumber)
     {
         this->name = name;
@@ -26,7 +26,7 @@ public:
 
 int main()
 {
-    // Array of Student objects
+    
     Student students[3] = {
         Student("Rahul", 101),
         Student("Amit", 102),

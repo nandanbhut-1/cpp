@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-// Abstract class
+
 class Animal
 {
 public:
-    // Pure virtual functions
+    
     virtual void makeSound() = 0;
     virtual void move() = 0;
 
@@ -45,7 +45,7 @@ int main()
     Lion lion;
     Fish fish;
 
-    // Array of Animal pointers
+    
     Animal* animals[2];
 
     animals[0] = &lion;

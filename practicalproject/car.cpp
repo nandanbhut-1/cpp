@@ -10,7 +10,7 @@ private:
     float speed;
 
 public:
-    // Setter functions
+    
     void setModel(string model)
     {
         this->model = model;
@@ -26,7 +26,7 @@ public:
         this->speed = speed;
     }
 
-    // Getter functions
+    
     string getModel()
     {
         return model;
@@ -47,12 +47,12 @@ int main()
 {
     Car c;
 
-    // Setting values
+    
     c.setModel("Toyota");
     c.setYear(2024);
     c.setSpeed(180.5);
 
-    // Getting values
+    
     cout << "Car Details" << endl;
     cout << "============" << endl;
     cout << "Model: " << c.getModel() << endl;

@@ -90,7 +90,7 @@ int main()
     phone.setBrand("Samsung");
     phone.setPowerConsumption(25);
 
-    // Array of base-class pointers
+    
     Device* devices[2];
 
     devices[0] = &laptop;

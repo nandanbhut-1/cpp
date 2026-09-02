@@ -9,7 +9,7 @@ private:
     float powerConsumption;
 
 public:
-    // Setter functions
+    
     void setBrand(string brand)
     {
         this->brand = brand;
@@ -20,7 +20,7 @@ public:
         this->powerConsumption = power;
     }
 
-    // Getter functions
+    
     string getBrand()
     {
         return brand;
@@ -31,7 +31,7 @@ public:
         return powerConsumption;
     }
 
-    // Virtual display function
+    
     virtual void display()
     {
         cout << "Brand: " << brand << endl;
